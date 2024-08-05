@@ -1,5 +1,5 @@
 n=5
-# square
+# square 
 for i in range(n):
     for j in range(n):
         print('*',end='')
@@ -17,7 +17,7 @@ for i in range(n):
         print('*',end='')
     print()
 
-# triangle 3
+# inverse triangle 1
 for i in range(n):
     for j in range(i):
         print(' ',end='')
@@ -25,7 +25,7 @@ for i in range(n):
         print('*',end='')
     print()
 
-# triangle 4
+#  inverse triangle 2
 for i in range(n):
     for j in range(i+1,n):
         print(' ',end='')
@@ -33,7 +33,7 @@ for i in range(n):
         print('*',end='')
     print()
 
-# pyramiid 1
+# pyramiid 
 for i in range(n):
     for j in range(i+1,n):
         print(' ',end='')
@@ -43,7 +43,7 @@ for i in range(n):
         print('*',end='')
     print()
 
-# pyramid 2
+#  inverse pyramid 
 for i in range(n):
     for j in range(i):
         print(' ',end='')
@@ -54,7 +54,7 @@ for i in range(n):
     print()
 
 
-# Dimond 1
+# Dimond 
 for i in range(n-1):
     for j in range(i+1,n):
         print(' ',end='')
@@ -73,7 +73,7 @@ for i in range(n):
     print()
 
 
-# Dimond 2
+# right  part Dimond 
 for i in range(n):
     for j in range(i+1):
         print('*',end='')
@@ -83,7 +83,7 @@ for i in range(n-1):
         print('*',end='')
     print()
 
-# Dimond 3
+# left part Dimond 
 for i in range(n):
     for j in range(i+1,n):
         print(' ',end='')
